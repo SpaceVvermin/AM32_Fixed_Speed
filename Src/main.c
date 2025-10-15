@@ -258,9 +258,9 @@ void zcfoundroutine(void);
 //#define FIXED_DUTY_MODE_POWER 100     //
 // 0-100 percent not used in fixed speed mode
 
-// #define FIXED_SPEED_MODE  // bypasses input signal and runs at a fixed rpm
+#define FIXED_SPEED_MODE  // bypasses input signal and runs at a fixed rpm
 // using the speed control loop PID 
-//#define FIXED_SPEED_MODE_RPM  1000  //
+#define FIXED_SPEED_MODE_RPM  1000  //
 // intended final rpm , ensure pole pair numbers are entered correctly in config
 // tool.
 
